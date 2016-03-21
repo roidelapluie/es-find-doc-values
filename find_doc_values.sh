@@ -6,6 +6,8 @@
 # Usage: ./find_doc_values.sh http://elastic:9200
 # Requires JQ https://stedolan.github.io/jq
 #
+# Limited to core fields due to https://github.com/elastic/elasticsearch/issues/5368
+#
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
 # as published by the Free Software Foundation; either version 2
